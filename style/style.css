@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+body {
+  background-color: rgba(194, 233, 218, 0.527);
+}
+
+header {
+  background-color: rgba(194, 233, 218, 0.527);
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px black;
+  display: block;
+}
+h1 {
+  text-align: center;
+  background-color: aquamarine;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px black;
+}
+.h21 {
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+  width: 100%;
+}
+.nav1 {
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: darkslategray;
+  padding: 0.5rem;
+  width: 20rem;
+  box-sizing: border-box;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px rgb(158, 130, 130);
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  width: 60px;
+  height: 30px;
+  background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+  border-radius: 20px;
+  border: 1px solid #8F9092;
+  transition: all 0.2s ease;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #606060;
+  text-shadow: 0 1px #fff;
+  padding: 10px;
+  margin: 2px  ;
+}
+button:hover {
+  box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+    0 -6px 4px #fefefe, inset 0 0 3px 3px #cecfd1;
+}
+
+button:active {
+  box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+    0 -6px 4px #fefefe, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+
+button:focus {
+  box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+    0 -6px 4px #fefefe, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+.nav2 {
+    display: flex;
+    justify-content: flex-end; /* envia o conteúdo para a direita */
+    border-radius: 10px;
+    background-color: rgb(151, 167, 167);
+    padding: 0.5rem;
+    width: 18rem; /* deixa menor */
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px rgb(156, 124, 124);
+    margin-left: auto; /* força o bloco ir para a direita */
+    margin-bottom: 5px ;
+    margin-top: -55px;   
+    
+}
+
+/* Lista */
+.nav2 ul {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    padding: 5px; /* corrigido */
+    margin: 0;
+}
+
+/* Itens */
+.nav2 li {
+ 
+    
+   
+    
+    text-align: center;
+   
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 1px #000;
+    width: 14rem; /* evita ficar gigante */
+}
+
+
+    
