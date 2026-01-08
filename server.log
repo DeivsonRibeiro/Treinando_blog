@@ -1,0 +1,6 @@
+127.0.0.1 - - [08/Jan/2026 00:35:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2026 00:35:41] "GET /img/dreamina-2025-12-05-3450-uma%20imagem%20de%20um%20programador%20em%20um%20circu....jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2026 00:35:41] "GET /style/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2026 00:36:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2026 00:36:23] "GET /img/dreamina-2025-12-05-3450-uma%20imagem%20de%20um%20programador%20em%20um%20circu....jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2026 00:36:23] "GET /style/style.css HTTP/1.1" 200 -
