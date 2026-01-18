@@ -1,0 +1,3 @@
+127.0.0.1 - - [18/Jan/2026 01:02:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 01:02:37] "GET /style/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Jan/2026 01:02:37] "GET /img/programmer-circuit.jpeg HTTP/1.1" 200 -
