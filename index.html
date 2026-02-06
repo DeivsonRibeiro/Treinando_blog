@@ -61,11 +61,19 @@
           </header>
 
           <figure>
+            <!--
+                ⚡ Bolt Optimization:
+                - Image compressed using jpegoptim (1.1MB -> 558KB).
+                - Added loading="lazy" because the image is below-the-fold (verified at y=792px).
+                - Added decoding="async" to prevent blocking the main thread during decoding.
+            -->
             <img
               src="/img/dreamina-2025-12-05-3450-uma imagem de um programador em um circu....jpeg"
               width="600"
               height="400"
               alt="Programador em um circuito"
+              loading="lazy"
+              decoding="async"
             />
             <figcaption>Imagem de um programador em um circuito</figcaption>
           </figure>
