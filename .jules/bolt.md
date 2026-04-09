@@ -1,0 +1,3 @@
+## 2026-02-04 - Image Optimization and Viewport Awareness
+**Learning:** Large, unoptimized images (1.1MB+) are a primary bottleneck in static sites. Even if an image is near the bottom of the page, it may still be partially visible in the initial viewport (above-the-fold) depending on screen resolution. Adding `decoding="async"` is a safe way to prevent main-thread blocking during image decoding.
+**Action:** Always check the initial viewport with tools like Playwright before deciding between `loading="lazy"` and `decoding="async"`. If an image is even partially visible, prioritize `decoding="async"` over lazy loading to avoid LCP regressions.
